@@ -1,6 +1,6 @@
-# Slim PHPUnit Action
+# laravel PHPUnit Action
 
-A Github action to run your Slim project's PHPUnit test suite running with MySQL.
+A Github action to run your Slim project's laravel test suite running with MySQL.
 
 ## Usage
 
@@ -35,7 +35,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: michelmelo/slim-phpunit-action@master
+    - uses: michelmelo/laravel-phpunit-action@master
 ```
 
 Don't forget that you should set up your database credentials both in your `.env.example` file and in the mysql service env variables in the content above!
