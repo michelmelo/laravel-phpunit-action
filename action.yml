@@ -1,5 +1,5 @@
-name: "Slim PHPUnit"
-description: "A GitHub action to run your Slim project's PHPUnit test suite."
+name: "Laravel PHPUnit"
+description: "A GitHub action to run your Laravel project's PHPUnit test suite."
 branding:
   icon: "check-circle"
   color: "green"
