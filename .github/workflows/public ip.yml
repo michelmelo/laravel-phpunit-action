@@ -24,4 +24,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        args: The ${{ github.event_name }} event triggered first step.${{ steps.ip.outputs.ipv4 }}
+        args: O ip do ${{ github.repo }} é \:${{ steps.ip.outputs.ipv4 }}
