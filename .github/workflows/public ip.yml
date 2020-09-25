@@ -19,3 +19,9 @@ jobs:
       run: |
         echo ${{ steps.ip.outputs.ipv4 }}
         echo ${{ steps.ip.outputs.ipv6 }}
+    - name: send custom message with args
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        args: The ${{ github.event_name }} event triggered first step.${{ steps.ip.outputs.ipv4 }}
