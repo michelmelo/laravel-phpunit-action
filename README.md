@@ -1,4 +1,4 @@
-# laravel PHPUnit Action
+# MM :: Laravel PHPUnit
 
 A Github action to run your Slim project's laravel test suite running with MySQL.
 
